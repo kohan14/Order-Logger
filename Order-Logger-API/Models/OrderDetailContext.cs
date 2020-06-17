@@ -1,12 +1,17 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Order_Logger_API.Models
 {
-    public class OrderDetailContext
+    public class OrderDetailContext : DbContext
     {
-        s
+        public OrderDetailContext(DbContextOptions<OrderDetailContext> options) : base(options)
+        {
+
+        }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
     }
 }
