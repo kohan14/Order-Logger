@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order-Logger-API", "Order-Logger-API.csproj", "{89A35497-B216-4211-B1FD-EDC8A990D5AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A35497-B216-4211-B1FD-EDC8A990D5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A35497-B216-4211-B1FD-EDC8A990D5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A35497-B216-4211-B1FD-EDC8A990D5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A35497-B216-4211-B1FD-EDC8A990D5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0273D6CA-6ECA-42B5-8335-8D65C8D93341}
+	EndGlobalSection
+EndGlobal
